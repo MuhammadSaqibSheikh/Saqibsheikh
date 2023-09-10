@@ -1,765 +1,1285 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>OnlineCare</title>
+        <!--[if lt IE 10]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+                <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="#">
+        <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+        <meta name="author" content="#">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="icon" href="" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/bower_components/bootstrap/css/bootstrap.min.css">
 
-  <script src="https://kit.fontawesome.com/24c82a992a.js" crossorigin="anonymous"></script>
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Saqib Sheikh - Graphic Designer & Digital marketer</title>
-  <meta name="title" content="Saqib Sheikh - Graphic Designer & Digital marketer">
-  <meta name="description" content="This is a personal portfolio website made by Ayan">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/icon/themify-icons/themify-icons.css">
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/icon/icofont/css/icofont.css">
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/pages/flag-icon/flag-icon.min.css">
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/pages/menu-search/css/component.css">
 
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-
-</head>
-
-<body>
-
-  <!-- 
-    - #PRELOADER
-  -->
-
-  <div class="preloader" data-preloader>
-    <div class="circle"></div>
-  </div>
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/css/olc.css">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/css/developer.css">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/css/messages.css">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/css/sidebar.css">
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/files/assets/pages/list-scroll/list.css">
 
 
+        <script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/jquery/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/assets/js/jquery-migrate-3.0.0.min.js"></script>
+        <script src="https://onlinecare.com/onlinecare_newdesign//js/jquery.browser.min.js"></script>
+        <link rel="stylesheet" href="https://onlinecare.com/onlinecare_newdesign//jquery-ui-1.9.2.custom/css/ui-lightness/jquery-ui-1.9.2.custom.min.css" />
+        <script src="https://onlinecare.com/onlinecare_newdesign/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js"></script>
+        <!--VALIDATION ENGINE-->
+        <link href="https://onlinecare.com/onlinecare_newdesign//JQuery Validation Engine_files/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
+        <script  type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign//JQuery Validation Engine_files/jquery.validationEngine.js"></script>
+        <script  type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign//JQuery Validation Engine_files/jquery.validationEngine-en.js"></script>
+        <script src="https://onlinecare.com/onlinecare_newdesign//js/jquery.form.js"></script>
+        <link rel="stylesheet" href="https://onlinecare.com/onlinecare_newdesign//css/toastr.css" />
+        <script src="https://onlinecare.com/onlinecare_newdesign//js/toastr.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://onlinecare.com/onlinecare_newdesign/css/new_layout.css">
+                <script>ttoken='6ce5f48be11f785464e2367d4bfb36ae996a2586';</script>
+        <script src="https://onlinecare.com/onlinecare_newdesign/js/custom.js"></script>
+
+        <link rel="stylesheet" href="https://onlinecare.com/onlinecare_newdesign/font-awesome/css/font-awesome.min.css">
+
+        <script src="https://onlinecare.com/onlinecare_newdesign/js/jquery.keystop.min.js"></script>
+        <script src="https://onlinecare.com/onlinecare_newdesign/datatable/jquery.dataTables.min.js"></script>
+        <link rel="stylesheet" href="https://onlinecare.com/onlinecare_newdesign/datatable/jquery.dataTables.min.css" />
+
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmBHjtnKmqEruWXhZPMhgbMsdhUn72vJc&v=3&libraries=places"></script>
+        <script src="https://www.onlinecare.com:3000/socket.io/socket.io.js"></script>
+                <script>
+            const site_url='https://onlinecare.com/onlinecare_newdesign/app';
+            const main_url='https://onlinecare.com/onlinecare_newdesign/';
+            patient_id='0';
+            const doctor_id='1';
+
+                usertype='doctor';
+        </script>
+        
+        <script>
+            var socket;
+
+            $ (document).ready (function () {
+                if (typeof io!=="undefined") {
+                    var url="https://www.onlinecare.com:3000/";
+                    //var url="https://localhost:3000/";
+                    socket=io.connect (url, {
+                        query: {
+                            type: 'doctor',
+                            id: doctor_id
+                        }});
+
+
+                    $ (".logout").click (function () {
+                        socket.emit ('webmsg', {'id': doctor_id, 'usertype': 'doctor', 'status': 'logout'});
+                        window.location=main_url+'patient/logout';
+                        return false;
+                    });
+                    socket.on ('notify', function ( data ) {
+                        console.log (data);
+                        if (data.action=='call') {
+                            setTimeout (function () {
+                                incoming_call_notify ('doctor', doctor_id);
+                            }, 1000);
+                        }
+                    });
+                    socket.on ('chat message', function ( data ) {
+                        console.log (data);
+                        if (data.status=='login')
+                        {
+                            $ ("#rl"+data.id).find (".user_call").show ();
+                        }
+                        else
+                        {
+                            $ ("#rl"+data.id).find (".user_call").hide ();
+                        }
+                    });
+                }
+            });
+            function notifynow ( id, to, message ) {
+                socket.emit ('notify', {'id': id, 'to': to, 'message': message});
+            }
+        </script>
+        <script src="https://onlinecare.com/onlinecare_newdesign/js/doctor_notification.js?9"></script>
+
+    </head>
+    <body>
+
+        <div id="overlay" >
+            <div>
+
+                <div class="loader"></div>
+                <div id="overlaytext">Loading....</div>
+            </div>
+        </div>
+        <div id="dialog-confirm" title="Calling..." style="display: none;height: 250px;">
+            <p>
+            </p>
+        </div>
+        <audio id="callingSignal" loop>
+            <source src="https://onlinecare.com/onlinecare_newdesign/audio/calling.ogg"></source>
+            <source src="https://onlinecare.com/onlinecare_newdesign/audio/calling.mp3"></source>
+        </audio>
+
+        <audio id="ringtoneSignal" loop>
+            <source src="https://onlinecare.com/onlinecare_newdesign/audio/ringtone.ogg"></source>
+            <source src="https://onlinecare.com/onlinecare_newdesign/audio/ringtone.mp3"></source>
+        </audio>
+
+
+        <audio id="endCallSignal">
+            <source src="https://onlinecare.com/onlinecare_newdesign/audio/end_of_call.ogg"></source>
+            <source src="https://onlinecare.com/onlinecare_newdesign/audio/end_of_call.mp3"></source>
+        </audio>
+                    <script src="https://onlinecare.com/onlinecare_newdesign/js/main_doctor.js?10"></script>
+                <script src="https://onlinecare.com/onlinecare_newdesign/js/config.js"></script>
+        <div class="theme-loader">
+            <div class="ball-scale">
+                <div class='contain'>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                    <div class="ring"><div class="frame"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pcoded" class="pcoded">
+            <div class="pcoded-overlay-box"></div>
+            <div class="pcoded-container navbar-wrapper">
+                <nav class="navbar header-navbar pcoded-header">
+                    <div class="navbar-wrapper">
+                        <div class="navbar-logo">
+                            <!--                            <a class="mobile-menu" id="mobile-collapse" href="#!">
+                                                            <i class="ti-menu"></i>
+                                                        </a>
+                                                        <a class="mobile-search morphsearch-search" href="#">
+                                                            <i class="ti-search"></i>
+                                                        </a>-->
+                            <a href="https://onlinecare.com/onlinecare_newdesign/">
+                                <img class="img-fluid" src="https://onlinecare.com/onlinecare_newdesign//img/logo.png" alt="Theme-Logo" />
+                            </a>
+                            <!--                            <a class="mobile-options">
+                                                            <i class="ti-more"></i>
+                                                        </a>-->
+                        </div>
+                        <div class="navbar-container container-fluid">
+
+                            <ul class="nav-right">
+
+                                <li class="header-notification">
+                                    <a href="#!">
+                                        <i class="ti-bell"></i>
+                                        <span class="badge bg-c-pink notify_badge">0</span>
+                                    </a>
+                                    <ul class="show-notification topnotify">
+
+                                                                                         <li>
+                                                <div class="media">
+
+                                                    <div class="media-body">
+                                                        <a class="content" href="https://onlinecare.com/onlinecare_newdesign/messages/view/7/doctor">
+
+                                                            <p class="notification-msg">Message received from Paul Victor</p>
+                                                            <span class="notification-time">Date: 06/12/2023</span></a>
+                                                    </div>
+                                                </div>
+                                                <hr/>
+                                            </li>
+                                                                                                 <li>
+                                                <div class="media">
+
+                                                    <div class="media-body">
+                                                        <a class="content" href="https://onlinecare.com/onlinecare_newdesign/messages/view/7/doctor">
+
+                                                            <p class="notification-msg">Message received from Paul Victor</p>
+                                                            <span class="notification-time">Date: 06/12/2023</span></a>
+                                                    </div>
+                                                </div>
+                                                <hr/>
+                                            </li>
+                                                                                                 <li>
+                                                <div class="media">
+
+                                                    <div class="media-body">
+                                                        <a class="content" href="https://onlinecare.com/onlinecare_newdesign/doctor_dashboard/urgentcare">
+
+                                                            <p class="notification-msg">You have new patient in queue</p>
+                                                            <span class="notification-time">Date: 03/09/2023</span></a>
+                                                    </div>
+                                                </div>
+                                                <hr/>
+                                            </li>
+                                                                                                 <li>
+                                                <div class="media">
+
+                                                    <div class="media-body">
+                                                        <a class="content" href="https://onlinecare.com/onlinecare_newdesign/doctor_dashboard">
+
+                                                            <p class="notification-msg">New Patient added in eLiveCare.</p>
+                                                            <span class="notification-time">Date: 10/11/2022</span></a>
+                                                    </div>
+                                                </div>
+                                                <hr/>
+                                            </li>
+                                                                                                 <li>
+                                                <div class="media">
+
+                                                    <div class="media-body">
+                                                        <a class="content" href="https://onlinecare.com/onlinecare_newdesign/doctor_dashboard">
+
+                                                            <p class="notification-msg">New Patient added in eLiveCare.</p>
+                                                            <span class="notification-time">Date: 10/10/2022</span></a>
+                                                    </div>
+                                                </div>
+                                                <hr/>
+                                            </li>
+                                                
+
+                                    </ul>
+                                </li>
+
+                                <li class="user-profile header-notification">
+                                                                        <a href="#!">
+                                        <img src="https://onlinecare.com/onlinecare_newdesign/images/1500819465414902396Ana_Farhat.png" class="img-radius" alt="">
+                                        <span>doctor test</span>
+                                        <i class="ti-angle-down"></i>
+                                    </a>
+                                    <ul class="show-notification profile-notification">
+
+                                        <li>
+                                            <a href="https://onlinecare.com/onlinecare_newdesign/doctor_profile">
+                                                <i class="ti-user"></i> Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://onlinecare.com/onlinecare_newdesign/messages_doctor">
+                                                <i class="ti-email"></i> My Messages
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://onlinecare.com/onlinecare_newdesign/patient/logout" class="logout">
+                                                <i class="ti-layout-sidebar-left"></i> Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <div id="morphsearch" class="morphsearch">
+                                <!--                                <form class="morphsearch-form">
+                                                                    <input class="morphsearch-input" type="search" placeholder="Search..." />
+                                                                    <button class="morphsearch-submit" type="submit">Search</button>
+                                                                </form>-->
+                                <div class="morphsearch-content">
+                                    <div class="dummy-column">
+                                        <h2>People</h2>
+                                        <a class="dummy-media-object" href="#!">
+                                            <img src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-1.jpg" alt="Sara Soueidan" />
+                                            <h3>Sara Soueidan</h3>
+                                        </a>
+                                        <a class="dummy-media-object" href="#!">
+                                            <img src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-2.jpg" alt="Shaun Dona" />
+                                            <h3>Shaun Dona</h3>
+                                        </a>
+                                    </div>
+                                    <div class="dummy-column">
+                                        <h2>Popular</h2>
+                                        <a class="dummy-media-object" href="#!">
+                                            <img src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-3.jpg" alt="PagePreloadingEffect" />
+                                            <h3>Page Preloading Effect</h3>
+                                        </a>
+                                        <a class="dummy-media-object" href="#!">
+                                            <img src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-4.jpg" alt="DraggableDualViewSlideshow" />
+                                            <h3>Draggable Dual-View Slideshow</h3>
+                                        </a>
+                                    </div>
+                                    <div class="dummy-column">
+                                        <h2>Recent</h2>
+                                        <a class="dummy-media-object" href="#!">
+                                            <img src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-5.jpg" alt="TooltipStylesInspiration" />
+                                            <h3>Tooltip Styles Inspiration</h3>
+                                        </a>
+                                        <a class="dummy-media-object" href="#!">
+                                            <img src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-6.jpg" alt="NotificationStyles" />
+                                            <h3>Notification Styles Inspiration</h3>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <span class="morphsearch-close"><i class="icofont icofont-search-alt-1"></i></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+
+                <div id="sidebar" class="users p-chat-user showChat">
+                    <div class="had-container">
+                        <div class="card card_main p-fixed users-main">
+                            <div class="user-box">
+                                <!--                                <div class="card-block">
+                                                                    <div class="right-icon-control">
+                                                                        <input type="text" class="form-control  search-text" placeholder="Search Friend" id="search-friends">
+                                                                        <div class="form-icon">
+                                                                            <i class="icofont icofont-search"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>-->
+                                <div class="main-friend-list">
+                                    <div class="media userlist-box" data-id="1" data-status="online" data-username="Josephin Doe" data-toggle="tooltip" data-placement="left" title="Josephin Doe">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-1.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Josephin Doe</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe" data-toggle="tooltip" data-placement="left" title="Lary Doe">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-2.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Lary Doe</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice" data-toggle="tooltip" data-placement="left" title="Alice">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-3.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Alice</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia" data-toggle="tooltip" data-placement="left" title="Alia">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-4.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Alia</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen" data-toggle="tooltip" data-placement="left" title="Suzen">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-5.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Suzen</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="6" data-status="offline" data-username="Michael Scofield" data-toggle="tooltip" data-placement="left" title="Michael Scofield">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-6.jpg" alt="">
+                                            <div class="live-status bg-danger"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Michael Scofield</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="7" data-status="online" data-username="Irina Shayk" data-toggle="tooltip" data-placement="left" title="Irina Shayk">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-7.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Irina Shayk</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="8" data-status="offline" data-username="Sara Tancredi" data-toggle="tooltip" data-placement="left" title="Sara Tancredi">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-1.jpg" alt="">
+                                            <div class="live-status bg-danger"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Sara Tancredi</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="9" data-status="online" data-username="Samon" data-toggle="tooltip" data-placement="left" title="Samon">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-2.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Samon</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="10" data-status="online" data-username="Daizy Mendize" data-toggle="tooltip" data-placement="left" title="Daizy Mendize">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-3.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Daizy Mendize</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="11" data-status="offline" data-username="Loren Scofield" data-toggle="tooltip" data-placement="left" title="Loren Scofield">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-4.jpg" alt="">
+                                            <div class="live-status bg-danger"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Loren Scofield</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="12" data-status="online" data-username="Shayk" data-toggle="tooltip" data-placement="left" title="Shayk">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-5.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Shayk</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="13" data-status="offline" data-username="Sara" data-toggle="tooltip" data-placement="left" title="Sara">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-6.jpg" alt="">
+                                            <div class="live-status bg-danger"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Sara</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="14" data-status="online" data-username="Doe" data-toggle="tooltip" data-placement="left" title="Doe">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-7.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Doe</div>
+                                        </div>
+                                    </div>
+                                    <div class="media userlist-box" data-id="15" data-status="online" data-username="Lary" data-toggle="tooltip" data-placement="left" title="Lary">
+                                        <a class="media-left" href="#!">
+                                            <img class="media-object" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-1.jpg" alt="">
+                                            <div class="live-status bg-success"></div>
+                                        </a>
+                                        <div class="media-body">
+                                            <div class="f-13 chat-header">Lary</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showChat_inner">
+                    <div class="media chat-inner-header">
+                        <a class="back_chatBox">
+                            <i class="icofont icofont-rounded-left"></i> Josephin Doe
+                        </a>
+                    </div>
+                    <div class="media chat-messages">
+                        <a class="media-left photo-table" href="#!">
+                            <img class="media-object img-circle m-t-5" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/avatar-1.jpg" alt="">
+                        </a>
+                        <div class="media-body chat-menu-content">
+                            <div class="">
+                                <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                                <p class="chat-time">8:20 a.m.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media chat-messages">
+                        <div class="media-body chat-menu-reply">
+                            <div class="">
+                                <p class="chat-cont">I'm just looking around. Will you tell me something about yourself?</p>
+                                <p class="chat-time">8:20 a.m.</p>
+                            </div>
+                        </div>
+                        <div class="media-right photo-table">
+                            <a href="#!">
+                                <img class="media-object img-circle m-t-5" src="https://onlinecare.com/onlinecare_newdesign/files/assets/images/user.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="chat-reply-box p-b-20">
+                        <div class="right-icon-control">
+                            <input type="text" class="form-control search-text" placeholder="Share Your Thoughts">
+                            <div class="form-icon">
+                                <i class="icofont icofont-paper-plane"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pcoded-main-container">
+                    <div class="pcoded-wrapper">
 
 
 
-  <!-- 
-    - #HEADER
-  -->
+<nav class="pcoded-navbar">
+    <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+    <div class="pcoded-inner-navbar main-menu">
+        <div class="">
+            <div class="main-menu-header">
+                <img class="img-40 img-radius" src="https://onlinecare.com/onlinecare_newdesign/images/1500819465414902396Ana_Farhat.png" alt="">
+                <div class="user-details">
+                    <span>doctor test</span>
+                    <span id="more-details">Doctor</span>
+                </div>
+            </div>
 
-  <header class="header" data-header>
-    <div class="container">
+        </div>
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
-      </a>
+                    <ul class="pcoded-item pcoded-left-item">
+                <li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/doctor_dashboard" class="">
+        <span class="pcoded-micon sidebar-icon dashboard"></span>
+        <span class="pcoded-mtext" data-i18n="nav.basic-components.main">Dashboard</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
 
-      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
-      </button>
-
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
-
-          <li>
-            <a href="#home" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a id="" href="assets/images/resuem ai saqib digital marketer-01.jpg"
-              download="resuem ai saqib digital marketer-01.jpg" class="navbar-link">
-              <span class="span">Resume</span>
+<li class="pcoded-hasmenu ">
+    <a href="javascript:void(0)" class="">
+        <span class="pcoded-micon sidebar-icon  elivecare"></span>
+        <span class="pcoded-mtext" data-i18n="nav.dash.main">Patient Care</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+    <ul class="pcoded-submenu">
+        <li class="">
+            <a href="https://onlinecare.com/onlinecare_newdesign/doctor_dashboard/urgentcare">
+                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                <span class="pcoded-mtext" data-i18n="nav.dash.default">Current</span>
+                <span class="pcoded-mcaret"></span>
             </a>
-          </li>
-
-          <li>
-            <a href="#portfolio" class="navbar-link">Services</a>
-          </li>
-
-          <!-- <li>
-            <a href="#" class="navbar-link">Portfolio</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Contact</a>
-          </li> -->
-
-        </ul>
-      </nav>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="section hero" aria-label="home" id="home">
-        <div class="container">
-
-          <div class="hero-content">
-
-            <h1 class="h1 hero-title">Saqib sheikh</h1>
-
-            <p class="hero-subtitle">
-              Crafting Brilliance in Digital Marketing, Graphic Designing, and Amazon VA Expertise.
-            </p>
-
-            <div class="hero-banner">
-              <img src="./assets/images/saqibPic.jpg" width="800" height="800" alt="kane williams" class="w-100">
-            </div>
-
-            <p class="section-text">
-              Hello, I’m Saqib Sheikh, a dynamic professional skilled in digital marketing, graphic
-              design, and Amazon Virtual Assistance. I bring creativity and strategic expertise to help businesses
-              excel. Let's shape your success story together!
-            </p>
-
-            <a id="resume" href="assets/images/resuem ai saqib digital marketer-01.jpg"
-              download="resuem ai saqib digital marketer-01.jpg" class="btn has-before">
-              <span class="span">Download CV</span>
-
-              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+        </li>
+        <li class="">
+            <a href="https://onlinecare.com/onlinecare_newdesign/doctor_dashboard/urgentcare_completed">
+                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                <span class="pcoded-mtext" data-i18n="nav.dash.default">Completed</span>
+                <span class="pcoded-mcaret"></span>
             </a>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="service" aria-labelledby="service-label" id="portfolio">
-        <div class="container">
-
-          <div class="title-wrapper">
-
-            <div>
-              <p class="section-subtitle">
-                Services That I Provide
-              </p>
-
-              <h2 class="h2 section-title" id="service-label">Services</h2>
-            </div>
-
-            <p class="section-text">
-              Amazon Optimization| Striking Visual Identity| Digital Marketing Expertise
-            </p>
-
-
-
-          </div>
-
-          <div class="slider" data-slider>
-
-            <ul class="slider-container service-list" data-slider-container>
-
-              <!-- <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="desktop-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Website Design</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">01</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
-
-                </div>
-              </li> -->
-
-              <!-- <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="podium-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">SEO Marketing</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">02</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
-
-                </div>
-              </li> -->
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="basket-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Amazon Virtual Assistance</h3>
-
-                  <p class="card-text">
-                    Maximize your potential on the world's largest online marketplace. With expertise in Amazon
-                    branding, product listing optimization, and thorough market and keyword research, I'll help your
-                    products shine. Additionally, I excel at creating seamless, high-conversion Amazon stores.
-                  </p>
-
-                  <span class="text-lg card-number">01</span>
-
-                  <a href="/va.html" target="_blank" class="layer-link"
-                    aria-label="More about my eCommerce service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="color-filter-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Graphic Design</h3>
-
-                  <p class="card-text">
-                    Crafting memorable brand experiences through design. From eye-catching logos to engaging social
-                    media posts and web banners, I specialize in creating visuals that leave a lasting impression.
-                  </p>
-
-                  <span class="text-lg card-number">02</span>
-
-                  <a href="/graphics.html" class="layer-link" aria-label="More about my Graphic Design service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="megaphone-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Digital Marketing</h3>
-
-                  <p class="card-text">
-                    Elevate your online presence with a tailored marketing strategy. Specializing in Email Marketing,
-                    SEO, and paid advertising on platforms like Facebook, Google, and Twitter, I bring a wealth of
-                    experience to every campaign. Expect nothing less than professional, results-driven solutions.
-                  </p>
-
-                  <span class="text-lg card-number">03</span>
-
-                  <a href="/digitalMarketing.html" class="layer-link"
-                    aria-label="More about my Digital Marketing service"></a>
-
-                </div>
-              </li>
-
-              <!-- <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="chatbubbles-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Social Media</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">04</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
-
-                </div>
-              </li> -->
-
-            </ul>
-
-            <div class="slider-controls">
-              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
-                <div class="line"></div>
-                <div class="arrow"></div>
-              </button>
-
-              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
-                <div class="line"></div>
-                <div class="arrow"></div>
-              </button>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SKILLS
-      -->
-
-      <section class="section skills" aria-label="our skills">
-        <div class="container">
-
-          <p class="section-subtitle">I Make The Future</p>
-
-          <h2 class="h2 section-title">I Ignite Digital Growth and Create Future-Ready Solutions.</h2>
-
-          <div class="skills-wrapper">
-
-            <div>
-              <p class="section-text">
-                Welcome to a world of boundless possibilities. With expertise in Email Marketing, SEO, Facebook Ads,
-                Google Ads, Twitter Ads, and a knack for crafting compelling visuals like brand logos, social media
-                posts, and web banners, I am dedicated to propelling your brand into the digital future.
-              </p>
-
-              <p class="section-text">
-                Harness the power of Amazon with specialized services in company branding, product listing optimization,
-                and thorough product and keyword research. Whether you're looking to establish a robust online presence
-                or revamp your existing strategies, I'm committed to delivering professional and results-driven
-                solutions every step of the way. Together, let's shape a future where your brand thrives in the digital
-                landscape.
-              </p>
-
-              <a href="https://mail.google.com/" class="btn has-before" target="_blank">sheikhsaqibsaqib@gmail.com</a>
-            </div>
-
-            <div>
-
-              <ul class="skills-list">
-
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Amazon Virtual Assistance</p>
-
-                    <data class="progress-value" value="95">95%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 95%;"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Graphic Design</p>
-
-                    <data class="progress-value" value="99">99%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 99%;"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Digital Marketing</p>
-
-                    <data class="progress-value" value="95">95%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 95%;"></div>
-                  </div>
-                </li>
-
-                <!-- <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Social Media</p>
-
-                    <data class="progress-value" value="85">85%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 85%;"></div>
-                  </div>
-                </li> -->
-
-              </ul>
-
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #PORTFOLIO
-      -->
-
-      <!-- <section class="portfolio" aria-labelledby="portfolio-label">
-
-        <div class="title-wrapper container">
-
-          <div>
-            <p class="section-subtitle" id="portfolio-label">Our Works</p>
-
-            <h2 class="h2 section-title">Portfolio</h2>
-          </div>
-
-          <p class="section-text">
-            In my portfolio, you'll find a showcase of my expertise in digital marketing, design, and Amazon
-            optimization. From crafting winning email campaigns to designing striking brand logos and executing
-            effective Amazon strategies, each project reflects my commitment to driving results and creating
-            future-ready solutions. Explore these examples to see how I can elevate your brand's online presence and
-            maximize its potential in the digital landscape.
-          </p>
-
-        </div>
-
-        <div class="slider" data-slider>
-
-          <ul class="slider-container" data-slider-container>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Lab. 001</h3>
-
-                  <p class="card-text">Website Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Aer Agency</h3>
-
-                  <p class="card-text">Website / Development</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Joker Card</h3>
-
-                  <p class="card-text">UX Design / Web App</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Peaky Blinders</h3>
-
-                  <p class="card-text">Website / UX Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Design Zoom</h3>
-
-                  <p class="card-text">Branding / Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Out Zone</h3>
-
-                  <p class="card-text">UX Design / Web App</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <div class="slider-controls">
-            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
-
-            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
-          </div>
-
-        </div>
-
-      </section> -->
-
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
-
-      <!-- <section class="section blog" aria-labelledby="blog-label">
-        <div class="container">
-
-          <p class="section-subtitle" id="blog-label">Recent Articles</p>
-
-          <h2 class="h2 section-title">Latest News</h2>
-
-          <ul class="blog-list">
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
-                  <img src="./assets/images/blog-1.jpg" width="700" height="470" loading="lazy"
-                    alt="Get Started With Tiktok Ads." class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <time class="time" datetime="2022-06-24">
-                    <span class="span text-lg">24</span>
-                    June 2022
-                  </time>
-
-                  <div>
-                    <h3 class="h3 card-title">Get Started With Tiktok Ads.</h3>
-
-                    <p class="card-text">
-                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
-                      ornare.
-                    </p>
-
-                    <a href="#" class="btn has-before">
-                      <span class="span">Read more</span>
-
-                      <ion-icon name="arrow-forward"></ion-icon>
-                    </a>
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
-                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
-                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <time class="time" datetime="2022-06-27">
-                    <span class="span text-lg">27</span>
-                    June 2022
-                  </time>
-
-                  <div>
-                    <h3 class="h3 card-title">UX in Ecommerce – 5 things to avoid.</h3>
-
-                    <p class="card-text">
-                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
-                      ornare.
-                    </p>
-
-                    <a href="#" class="btn has-before">
-                      <span class="span">Read more</span>
-
-                      <ion-icon name="arrow-forward"></ion-icon>
-                    </a>
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section> -->
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-    <div class="container">
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Get in touch</p>
         </li>
+        
+    </ul>
+</li>
 
-        <li>
-          <a href="mailto:sheikhsaqibsaqib@gmail.com" class="footer-link">sheikhsaqibsaqib@gmail.com</a>
+
+
+<li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/doctor/care_managment" class="">
+        <span class="pcoded-micon sidebar-icon mypatients"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">My Patients</span>
+    </a>
+</li>
+<li class=" ">
+    <a href="https://onlinecare.com/onlinecare_newdesign/doctor_appointment" class="" >
+        <span class="pcoded-micon sidebar-icon appointment"></span>
+        <span class="pcoded-mtext" data-i18n="nav.advance-components.main">Appointment</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
+<li class="active">
+    <a href="https://onlinecare.com/onlinecare_newdesign/set_schedule" class="">
+        <span class="pcoded-micon sidebar-icon set_schedule"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">My Schedule</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
+<li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/doctor/instantconnect" class="">
+        <span class="pcoded-micon sidebar-icon instantconnect"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">Instant Connect</span>
+    </a>
+</li>
+
+<li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/sendsms/add" class="">
+        <span class="pcoded-micon sidebar-icon invitesms"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">App Invite</span>
+    </a>
+</li>
+
+
+
+<li class="pcoded-hasmenu ">
+    <a href="javascript:void(0)" class="">
+        <span class="pcoded-micon sidebar-icon  doctodoc"></span>
+        <span class="pcoded-mtext" data-i18n="nav.dash.main">Doc to Doc</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+    <ul class="pcoded-submenu">
+        <li class="">
+            <a href="https://onlinecare.com/onlinecare_newdesign/doctodoc?doctor=1">
+                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                <span class="pcoded-mtext" data-i18n="nav.dash.default">Doc to Doc</span>
+                <span class="pcoded-mcaret"></span>
+            </a>
         </li>
+        
+    </ul>
+</li>
+<li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/messages_doctor" class="">
+        <span class="pcoded-micon sidebar-icon messages"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">Messages</span>
+    </a>
+</li>
 
-      </ul>
+<li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/call_history" class="">
+        <span class="pcoded-micon sidebar-icon call-histry"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">Calls History</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
+<li class=" ">
+    <a href="https://onlinecare.com/onlinecare_newdesign/prescription_doctor/loadPrescriptions" class="">
+        <span class="pcoded-micon sidebar-icon preciption"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">Prescriptions</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
+<li class=" ">
+    <a href="https://onlinecare.com/onlinecare_newdesign/refill_requests" class="">
+        <span class="pcoded-micon sidebar-icon refill"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">Refill Requests</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
+<li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/doctor/labs" class="">
+        <span class="pcoded-micon sidebar-icon lab_report"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">Labs</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
+<li class="">
+    <a href="https://onlinecare.com/onlinecare_newdesign/doc-support" class="">
+        <span class="pcoded-micon sidebar-icon support"></span>
+        <span class="pcoded-mtext" data-i18n="nav.sticky-notes.main">Support</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>
+<li class=" ">
+    <a href="https://onlinecare.com/onlinecare_newdesign/doctor_profile" class="">
+        <span class="pcoded-micon sidebar-icon profile"></span>
+        <span class="pcoded-mtext" data-i18n="nav.extra-components.main">Profile</span>
+        <span class="pcoded-mcaret"></span>
+    </a>
+</li>            </ul>
 
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Locations</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Hyderabad — Sindh</a>
-        </li>
-
-      </ul>
-
-      <ul class="social-list">
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-dribbble"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-skype"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.linkedin.com/in/saqib-sheikh-664893246/" class="social-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
-      </ul>
-
+            
     </div>
-  </footer>
+</nav>
+
+<div class="pcoded-content">
+    <div class="pcoded-inner-content">
+
+        <div class="main-body">
+            <div class="page-wrapper">
 
 
 
 
 
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+                <input type="hidden" class="user_id" value="1"/>
+                <div class="modal fade" id="alert_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                Alert
+                            </div>
+                            <div class="modal-body">
+                                <div class="alert alert-success" role="alert" style="display: none;">  </div>
+                                <div class="alert alert-danger" role="alert" style="display: none;"></div>
+                            </div>
+                            <div class="modal-footer">
+
+                                <a class="btn btn-danger btn-ok" data-dismiss="modal">OK</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="overlay" >
+                    <div>
+
+                        <div class="loader"></div>
+                        <div id="overlaytext">Loading....</div>
+                    </div>
+                </div>
+                <div id="dialog-confirm" title="Calling..." style="display: none;height: 250px;">
+
+                </div>
+                <audio id="msgtone">
+                    <source src="https://onlinecare.com/onlinecare_newdesign/audio/new_message.ogg"></source>
+                    <source src="https://onlinecare.com/onlinecare_newdesign/audio/new_message.mp3"></source>
+                </audio>
+
+
+                <audio id="ringtoneSignal" loop>
+                    <source src="https://onlinecare.com/onlinecare_newdesign/audio/ringtone.ogg"></source>
+                    <source src="https://onlinecare.com/onlinecare_newdesign/audio/ringtone.mp3"></source>
+                </audio>
+
+                <audio id="endCallSignal">
+                    <source src="https://onlinecare.com/onlinecare_newdesign/audio/end_of_call.ogg"></source>
+                    <source src="https://onlinecare.com/onlinecare_newdesign/audio/end_of_call.mp3"></source>
+                </audio>
+
+
+
+<script>
+    function deleteSelected ()
+    {
+        data="";
+        $ (".selected_delete").each (function () {
+            checked=$ (this).attr ("checked");
+            if (checked=="checked")
+            {
+                data+="&id[]="+$ (this).val ();
+            }
+        });
+        if (data!="")
+        {
+            r=confirm ("Do you want to delete?");
+            if (r)
+            {
+                $.ajax ({
+                    url: 'https://onlinecare.com/onlinecare_newdesign/set_schedule/deleteMultipleReport',
+                    type: 'post',
+                    data: data,
+                    success: function ( data )
+                    {
+                        window.location.reload ();
+                    }
+                });
+            }
+        }
+    }
+    $ (document).ready (function () {
+
+        $ (".morning_time").timepicker ({
+            timeFormat: "h:mm TT",
+            hourMin: 0,
+            hourMax: 23,
+            stepMinute: 15,
+            controlType: 'select',
+            oneLine: true,
+        });
+        $ (".eve_time").timepicker ({
+            timeFormat: "h:mm TT",
+            hourMin: 0,
+            hourMax: 23,
+            stepMinute: 15,
+            controlType: 'select',
+            oneLine: true,
+        });
+        $ (".day_checkbox").each (function () {
+            if ($ (this).is (":checked"))
+            {
+                $ (this).closest ("tr").find ("input[type=text]").removeAttr ("disabled");
+
+            }
+            else
+            {
+                $ (this).closest ("tr").find ("input[type=text]").attr ("disabled", "disabled");
+            }
+        });
+        $ (".morning_check").each (function () {
+            if ($ (this).is (":checked"))
+            {
+                $ (this).closest ("tr").find (".morning_time").removeAttr ("disabled");
+
+            }
+            else
+            {
+                $ (this).closest ("tr").find (".morning_time").attr ("disabled", "disabled");
+            }
+        });
+        $ (".eve_check").each (function () {
+            if ($ (this).is (":checked"))
+            {
+                $ (this).closest ("tr").find (".eve_time").removeAttr ("disabled");
+
+            }
+            else
+            {
+                $ (this).closest ("tr").find (".eve_time").attr ("disabled", "disabled");
+            }
+        });
+        $ (".day_checkbox").click (function () {
+
+
+            if ($ (this).is (":checked"))
+            {
+                $ (this).closest ("tr").find (".morning_check").attr ("checked", "checked");
+                $ (this).closest ("tr").find (".eve_check").attr ("checked", "checked");
+                $ (this).closest ("tr").find ("input[type=text]").removeAttr ("disabled");
+
+            }
+            else
+            {
+                $ (this).closest ("tr").find ("input[type=text]").attr ("disabled", "disabled");
+                $ (this).closest ("tr").find (".morning_check").removeAttr ("checked");
+                $ (this).closest ("tr").find (".eve_check").removeAttr ("checked");
+            }
+        });
+        $ (".morning_check").click (function () {
+
+
+            if ($ (this).is (":checked"))
+            {
+                $ (this).closest ("tr").find (".morning_time").removeAttr ("disabled");
+                $ (this).closest ("tr").find (".morning_time").eq (0).val ("09:00 AM");
+                $ (this).closest ("tr").find (".morning_time").eq (1).val ("12:00 PM");
+
+
+
+            }
+            else
+            {
+                $ (this).closest ("tr").find (".morning_time").attr ("disabled", "disabled");
+            }
+        });
+        $ (".eve_check").click (function () {
+
+
+            if ($ (this).is (":checked"))
+            {
+                $ (this).closest ("tr").find (".eve_time").removeAttr ("disabled");
+                $ (this).closest ("tr").find (".eve_time").eq (0).val ("5:00 PM");
+                $ (this).closest ("tr").find (".eve_time").eq (1).val ("10:00 PM");
+
+            }
+            else
+            {
+                $ (this).closest ("tr").find (".eve_time").attr ("disabled", "disabled");
+            }
+        });
+
+        $ ("#saveschedule").ajaxForm ({
+            dataType: "json",
+            headers: {"Oauthtoken": "Bearer "+ttoken},
+            beforeSubmit: function () {
+                $ ("#overlay").show ();
+                $ ("form input[type=submit]").hide ();
+                $ ("form button[type=submit]").hide ();
+            },
+            error: function ()
+            {
+                $ ("#overlay").hide ();
+                $ ("form input[type=submit]").show ();
+                $ ("form button[type=submit]").show ();
+                error ("Error please check logs.");
+            },
+            success: function ( data ) {
+                $ ("#overlay").hide ();
+                $ ("form input[type=submit]").show ();
+                $ ("form button[type=submit]").show ();
+                if (data==null||data=="")
+                {
+                    window.location.reload (true);
+                }
+                else if (data['error']!==undefined)
+                {
+                    error (data['message']);
+                }
+                else if (data['success']!==undefined)
+                {
+                    if (data['success']==1) {
+                        success ("Schedule has been saved.");
+                    }
+                }
+                if (data['redirect']!==undefined)
+                {
+
+                    window.location=data['redirect'];
+
+                }
+                if (data['reload']!==undefined)
+                {
+
+                    window.location.reload (true);
+
+
+                }
+                if (data['reset']!==undefined)
+                {
+                    resetForm ();
+                }
+
+
+            }
+        });
+    });
+    function validateSchedule ()
+    {
+        error_text="";
+        $ (".schedule_row").each (function () {
+            day_name=$ (this).find ("td").eq (1).html ();
+            mt1=$ (this).find (".morning_time").eq (0).val ();
+            mt2=$ (this).find (".morning_time").eq (1).val ();
+
+            et1=$ (this).find (".eve_time").eq (0).val ();
+            et2=$ (this).find (".eve_time").eq (1).val ();
+
+            if (mt1!=""&&mt2!="") {
+                mt1=convertto24 (mt1);
+                mt2=convertto24 (mt2);
+                if (mt1>mt2)
+                {
+                    error_text+="Wrong "+day_name+" Morning Date\n";
+                }
+
+            }
+            if (et1!=""&&et2!="") {
+                et1=convertto24 (et1);
+                et2=convertto24 (et2);
+                if (et1>et2)
+                {
+                    error_text+="Wrong "+day_name+" Evening Date\n";
+                }
+
+            }
+
+        });
+        if (error_text!="")
+        {
+            error (error_text);
+        }
+        else
+        {
+            $ ("#saveschedule").submit ();
+        }
+    }
+    function convertto24 ( time ) {
+
+        var hours=Number (time.match (/^(\d+)/)[1]);
+        var minutes=Number (time.match (/:(\d+)/)[1]);
+        var AMPM=time.match (/\s(.*)$/)[1];
+        if (AMPM=="PM"&&hours<12) hours=hours+12;
+        if (AMPM=="AM"&&hours==12) hours=hours-12;
+        var sHours=hours.toString ();
+        var sMinutes=minutes.toString ();
+        if (hours<10) sHours="0"+sHours;
+        if (minutes<10) sMinutes="0"+sMinutes;
+        return (sHours+":"+sMinutes);
+    }
+</script>
+<div class="page-header card">
+    <div class="row align-items-end">
+        <div class="col-lg-8"> 
+            <div class="page-header-title">
+                <i class="sidebar-icon icofont set_schedule" ></i>
+                <div class="d-inline">
+                    <h4>Set Schedule and Availability</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="page-header-breadcrumb">
+                <ul class="breadcrumb-title">
+                    <li class="breadcrumb-item">
+                        <a href="https://onlinecare.com/onlinecare_newdesign/">
+                            
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-body">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-block">
+
+
+                    
+                    <div class="row no-mar">
+                        <div class="bs-example">
+                            <form action="https://onlinecare.com/onlinecare_newdesign/app/doctor/save_Schedule" method="post" id="saveschedule"> 
+                                <div class="row">
+
+                                    <div class="col-lg-12">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" name="is_available_onlinecare" value="1" >
+                                                        Available for OnlineCare
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-lg-12">
+                                        <div class="row">
+
+                                            <div class="col-lg-6">
+                                                <label>Start Date</label>
+                                                                                                <input type="text" name="schedule_start_date" readonly="" value="06/24/2023" class="date form-control"/>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <label>End Date</label>
+                                                <input type="text" name="schedule_end_date" readonly="" value="07/01/2023" class="date form-control"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <table class="table">
+                                    <tr>
+                                        <th></th>
+                                        <th>Day</th>
+                                        <th></th>
+                                        <th colspan="2">Morning</th>
+                                        <th></th>
+                                        <th colspan="2">Evening</th>
+
+                                    </tr>
+                                    <tbody>
+                                                                                    <tr class="schedule_row">
+                                                <td><input type="checkbox" class="day_checkbox" name="days[Monday]" value="Monday" /></td>
+                                                <td>Monday</td>
+                                                <td><input type="checkbox" class="morning_check" name="is_morning[Monday]" value="1" /></td>
+                                                <td><input type="text" class="form-control morning_time " name="from_time[Monday]" value="" id="" placeholder="09:00 AM"></td>
+                                                <td><input type="text" class="form-control morning_time" name="to_time[Monday]" value="" id="" placeholder="12:00 PM"></td>
+                                                <td><input type="checkbox" class="eve_check" name="is_evening[Monday]" value="1" /></td>
+                                                <td> <input type="text" class="form-control eve_time " name="evening_from_time[Monday]" value="" id="" placeholder="5:00 PM"></td>
+                                                <td><input type="text" class="form-control eve_time " name="evening_to_time[Monday]" value="" id="" placeholder="10:00 PM"></td>
+                                                <td></td>
+                                            </tr>
+                                                                                    <tr class="schedule_row">
+                                                <td><input type="checkbox" class="day_checkbox" name="days[Tuesday]" value="Tuesday" /></td>
+                                                <td>Tuesday</td>
+                                                <td><input type="checkbox" class="morning_check" name="is_morning[Tuesday]" value="1" /></td>
+                                                <td><input type="text" class="form-control morning_time " name="from_time[Tuesday]" value="" id="" placeholder="09:00 AM"></td>
+                                                <td><input type="text" class="form-control morning_time" name="to_time[Tuesday]" value="" id="" placeholder="12:00 PM"></td>
+                                                <td><input type="checkbox" class="eve_check" name="is_evening[Tuesday]" value="1" /></td>
+                                                <td> <input type="text" class="form-control eve_time " name="evening_from_time[Tuesday]" value="" id="" placeholder="5:00 PM"></td>
+                                                <td><input type="text" class="form-control eve_time " name="evening_to_time[Tuesday]" value="" id="" placeholder="10:00 PM"></td>
+                                                <td></td>
+                                            </tr>
+                                                                                    <tr class="schedule_row">
+                                                <td><input type="checkbox" class="day_checkbox" name="days[Wednesday]" value="Wednesday" /></td>
+                                                <td>Wednesday</td>
+                                                <td><input type="checkbox" class="morning_check" name="is_morning[Wednesday]" value="1" /></td>
+                                                <td><input type="text" class="form-control morning_time " name="from_time[Wednesday]" value="" id="" placeholder="09:00 AM"></td>
+                                                <td><input type="text" class="form-control morning_time" name="to_time[Wednesday]" value="" id="" placeholder="12:00 PM"></td>
+                                                <td><input type="checkbox" class="eve_check" name="is_evening[Wednesday]" value="1" /></td>
+                                                <td> <input type="text" class="form-control eve_time " name="evening_from_time[Wednesday]" value="" id="" placeholder="5:00 PM"></td>
+                                                <td><input type="text" class="form-control eve_time " name="evening_to_time[Wednesday]" value="" id="" placeholder="10:00 PM"></td>
+                                                <td></td>
+                                            </tr>
+                                                                                    <tr class="schedule_row">
+                                                <td><input type="checkbox" class="day_checkbox" name="days[Thursday]" value="Thursday" /></td>
+                                                <td>Thursday</td>
+                                                <td><input type="checkbox" class="morning_check" name="is_morning[Thursday]" value="1" /></td>
+                                                <td><input type="text" class="form-control morning_time " name="from_time[Thursday]" value="" id="" placeholder="09:00 AM"></td>
+                                                <td><input type="text" class="form-control morning_time" name="to_time[Thursday]" value="" id="" placeholder="12:00 PM"></td>
+                                                <td><input type="checkbox" class="eve_check" name="is_evening[Thursday]" value="1" /></td>
+                                                <td> <input type="text" class="form-control eve_time " name="evening_from_time[Thursday]" value="" id="" placeholder="5:00 PM"></td>
+                                                <td><input type="text" class="form-control eve_time " name="evening_to_time[Thursday]" value="" id="" placeholder="10:00 PM"></td>
+                                                <td></td>
+                                            </tr>
+                                                                                    <tr class="schedule_row">
+                                                <td><input type="checkbox" class="day_checkbox" name="days[Friday]" value="Friday" /></td>
+                                                <td>Friday</td>
+                                                <td><input type="checkbox" class="morning_check" name="is_morning[Friday]" value="1" /></td>
+                                                <td><input type="text" class="form-control morning_time " name="from_time[Friday]" value="" id="" placeholder="09:00 AM"></td>
+                                                <td><input type="text" class="form-control morning_time" name="to_time[Friday]" value="" id="" placeholder="12:00 PM"></td>
+                                                <td><input type="checkbox" class="eve_check" name="is_evening[Friday]" value="1" /></td>
+                                                <td> <input type="text" class="form-control eve_time " name="evening_from_time[Friday]" value="" id="" placeholder="5:00 PM"></td>
+                                                <td><input type="text" class="form-control eve_time " name="evening_to_time[Friday]" value="" id="" placeholder="10:00 PM"></td>
+                                                <td></td>
+                                            </tr>
+                                                                                    <tr class="schedule_row">
+                                                <td><input type="checkbox" class="day_checkbox" name="days[Saturday]" value="Saturday" /></td>
+                                                <td>Saturday</td>
+                                                <td><input type="checkbox" class="morning_check" name="is_morning[Saturday]" value="1" /></td>
+                                                <td><input type="text" class="form-control morning_time " name="from_time[Saturday]" value="" id="" placeholder="09:00 AM"></td>
+                                                <td><input type="text" class="form-control morning_time" name="to_time[Saturday]" value="" id="" placeholder="12:00 PM"></td>
+                                                <td><input type="checkbox" class="eve_check" name="is_evening[Saturday]" value="1" /></td>
+                                                <td> <input type="text" class="form-control eve_time " name="evening_from_time[Saturday]" value="" id="" placeholder="5:00 PM"></td>
+                                                <td><input type="text" class="form-control eve_time " name="evening_to_time[Saturday]" value="" id="" placeholder="10:00 PM"></td>
+                                                <td></td>
+                                            </tr>
+                                                                                    <tr class="schedule_row">
+                                                <td><input type="checkbox" class="day_checkbox" name="days[Sunday]" value="Sunday" /></td>
+                                                <td>Sunday</td>
+                                                <td><input type="checkbox" class="morning_check" name="is_morning[Sunday]" value="1" /></td>
+                                                <td><input type="text" class="form-control morning_time " name="from_time[Sunday]" value="" id="" placeholder="09:00 AM"></td>
+                                                <td><input type="text" class="form-control morning_time" name="to_time[Sunday]" value="" id="" placeholder="12:00 PM"></td>
+                                                <td><input type="checkbox" class="eve_check" name="is_evening[Sunday]" value="1" /></td>
+                                                <td> <input type="text" class="form-control eve_time " name="evening_from_time[Sunday]" value="" id="" placeholder="5:00 PM"></td>
+                                                <td><input type="text" class="form-control eve_time " name="evening_to_time[Sunday]" value="" id="" placeholder="10:00 PM"></td>
+                                                <td></td>
+                                            </tr>
+                                                                                <tr>
+                                            <td colspan="8"> <button type="button" onclick="validateSchedule ()" class="btn btn-primary my-btn pull-right">Save</button></td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+                                <input type="hidden" name="doctor_id" value="1"/>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="myModal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h3 class="modal-title" id="myModalLabel">Prescription</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Dr. Safiya Saqib</h4>
+
+                <p><b>File Name:</b> Flu &amp; Temperature</p>
+
+                <p><b>Date &amp; Time:</b> 06 Apr 2014 08:21am</p>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-lg-8">Area Left</div>
+                    <div class="col-lg-4">Area Right</div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
 
 </body>
+</html>
 
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<link href="https://onlinecare.com/onlinecare_newdesign/files/assets/css/calling.css" rel="stylesheet" type="text/css"/>
+<script src="https://onlinecare.com/onlinecare_newdesign//js/calling.js"></script>
+<div class="modal fade calling" id="outgoing_calling_modal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="calling-modal-left">
+                <img src="https://onlinecare.com/onlinecare_newdesign/images/video_calling_icon.png" />
+            </div>
+            <div class="calling-modal-right">
+                <h2 style="font-size: 25px;text-align: center;">Calling</h2>
+
+                <div class="a calling-loader" style="--n: 3;">
+                    <div class="dot" style="--i: 0;"></div>
+                    <div class="dot" style="--i: 1;"></div>
+                    <div class="dot" style="--i: 2;"></div>
+                </div>
+                <h2 class="caller_name participant_name"></h2>
+                <img src="https://onlinecare.com/onlinecare_newdesign/images/reject_icon.png" style="margin: 9px 100px;" width="40" class="cancel_call"/>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal fade calling" id="incoming_calling_modal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="calling-modal-left">
+                <img src="https://onlinecare.com/onlinecare_newdesign/images/video_calling_icon.png" />
+            </div>
+            <div class="calling-modal-right">
+                <h2 style="font-size: 25px;text-align: center;">Calling</h2>
+
+                <div class="a calling-loader" style="--n: 3;">
+                    <div class="dot" style="--i: 0;"></div>
+                    <div class="dot" style="--i: 1;"></div>
+                    <div class="dot" style="--i: 2;"></div>
+                </div>
+                <h2 class="caller_name caller"></h2>
+                <div class="calling-btn">
+                    <img src="https://onlinecare.com/onlinecare_newdesign/images/accept_icon.png"  width="40" class="accept_call_btn accept_call" /> 
+                    <img src="https://onlinecare.com/onlinecare_newdesign/images/reject_icon.png" width="40" class="reject_call"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://onlinecare.com/onlinecare_newdesign//css/jquery-ui-timepicker-addon.css" />
+<script src="https://onlinecare.com/onlinecare_newdesign//js/jquery-ui-timepicker-addon.js"></script>
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/popper.js/js/popper.min.js"></script>
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/modernizr/js/modernizr.js"></script>
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/modernizr/js/css-scrollbars.js"></script>
+
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/i18next/js/i18next.min.js"></script>
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
+
+<script src="https://onlinecare.com/onlinecare_newdesign/files/assets/js/pcoded.min.js"></script>
+<script src="https://onlinecare.com/onlinecare_newdesign/files/assets/js/demo-12.js"></script>
+<script src="https://onlinecare.com/onlinecare_newdesign/files/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="https://onlinecare.com/onlinecare_newdesign/files/assets/js/script.js"></script>
+</body>
 </html>
